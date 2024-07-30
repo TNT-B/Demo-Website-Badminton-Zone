@@ -1,0 +1,164 @@
+.filteritem {
+  display: flex;
+  flex-direction: column;
+}
+.itemrate {
+  margin: 10px 10px;
+  margin-left: 40px;
+}
+
+.itemcategory {
+  margin: 10px 10px;
+}
+
+.itemserivce {
+  margin: 10px 10px;
+}
+
+.category {
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+.big-container {
+  display: flex;
+}
+
+.filter {
+  margin: 140px 30px 0px 40px;
+  font-size: 125%;
+  position: sticky;
+  top: 0;
+}
+
+.level2_Container {
+  display: flex;
+}
+.item {
+  color: black;
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 3px;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 25px 45px;
+  box-shadow: 0 1px 3px 0 #00000033, 0 1px 1px 0 #00000024,
+    0 2px 1px -1px #0000001f, -1px 0 0 0 #0000000d;
+  margin-bottom: 20px;
+}
+
+.product_img {
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-top: 10px;
+  height: 230px;
+}
+
+.product_info {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  width: 550px;
+}
+
+.container {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.fa-star {
+  color: rgba(232, 225, 8, 0.797);
+  margin-bottom: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.SearchBar {
+  margin: 50px 0px 30px 0px;
+}
+
+#fieldname {
+  font-weight: bolder;
+}
+
+.name {
+  color: rgba(2, 18, 1, 0.797);
+  font-weight: bolder;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.bookingsection {
+  margin-left: 50px;
+}
+
+.container {
+  width: 80%;
+}
+
+.title {
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.address_item {
+  margin: 5px 5px;
+}
+
+.people_rate {
+  margin: 5px 5px;
+}
+.price_range {
+  margin: 5px 5px;
+}
+.time_range {
+  margin: 5px 5px;
+}
+
+#field {
+  width: 360px;
+  margin-bottom: 10px;
+}
+
+.filtertitle {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+
+.titleField {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.titleConfirm {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 632px;
+}
+.formContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+#buttonBook {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
